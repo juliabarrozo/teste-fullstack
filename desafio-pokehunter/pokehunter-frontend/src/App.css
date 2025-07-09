@@ -1,0 +1,103 @@
+body {
+  background-color: #fffde7; /* amarelo claro */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px; /* largura menor */
+  margin: auto;
+  padding: 32px;
+}
+
+.titulo {
+  color: #ffcc00;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.busca {
+  margin-bottom: 32px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.form-group {
+  display: flex;
+  gap: 16px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  flex-shrink: 0;       /* Impede o botão de encolher */
+  width: 120px;         /* Largura fixa para o botão */
+  padding: 8px 16px;
+  background-color: #ffcc00;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgb(255, 255, 26);
+}
+
+.resultado, .historico {
+  background-color: white;
+  padding: 24px;
+  border-radius: 16px;
+  margin-bottom: 32px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.pokemon-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pokemon-box img {
+  width: 160px;
+  height: 160px;
+}
+
+.nome-pokemon {
+  margin-top: 8px;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15.2px;
+}
+
+th, td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #3b4cca;
+  color: white;
+}
